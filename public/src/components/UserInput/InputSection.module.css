@@ -1,0 +1,38 @@
+form {
+  width: 100%;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  background-color: #231539;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+  color: #dbdbdb;
+  font-size: 16px;
+  padding: 0px 60px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(184, 184, 184);
+}
+
+.link {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+
+button {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
