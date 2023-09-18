@@ -4,22 +4,22 @@
   text-align: center;
 }
 
-h1 {
+.index-message-main h1 {
   font-size: 3rem;
   margin: 5px;
 }
 
-h1:first-child {
+.index-message-main h1:first-child {
   color: rgb(255, 255, 255);
 }
-span {
+.index-message-main span {
   background: -webkit-linear-gradient(#ff512f, #dd2476);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
 }
 
-p {
+.index-message-main p {
   font-size: 1rem;
   color: rgb(150, 147, 151);
 }

@@ -1,0 +1,28 @@
+.article-heading {
+  margin-top: 1.2rem;
+}
+
+.article-heading {
+  color: rgb(219, 219, 219);
+  font-weight: 700;
+}
+
+.article-heading span {
+  background: -webkit-linear-gradient(#0b867c, #4ef18d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.result-section {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  padding: 1.5rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #231539;
+  margin-top: 1rem;
+  color: rgb(209, 209, 209);
+}
