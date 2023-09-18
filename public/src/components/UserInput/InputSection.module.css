@@ -24,8 +24,10 @@ input::placeholder {
 
 .link {
   position: absolute;
-  top: 6px;
+  top: 5px;
   left: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 button {
@@ -35,4 +37,33 @@ button {
   cursor: pointer;
   background: transparent;
   border: none;
+}
+
+button img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 468px) {
+  input {
+    height: 50px;
+    padding: 0px 50px;
+    font-size: 14px;
+  }
+  .link {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+  }
+
+  button {
+    top: 8px;
+    right: 10px;
+  }
+
+  button img {
+    width: 35px;
+    height: 35px;
+  }
 }

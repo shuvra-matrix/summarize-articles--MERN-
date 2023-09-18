@@ -10,3 +10,10 @@
   margin-top: 1.5rem;
   color: rgb(209, 209, 209);
 }
+
+@media (max-width: 468px) {
+  .error {
+    font-size: 1rem;
+    color: rgb(192, 192, 192);
+  }
+}

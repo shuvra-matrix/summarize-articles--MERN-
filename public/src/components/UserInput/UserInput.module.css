@@ -3,3 +3,21 @@
   margin: 2rem auto;
   padding-bottom: 2rem;
 }
+
+@media (max-width: 1110px) {
+  .userinput {
+    width: 60%;
+  }
+}
+
+@media (max-width: 786px) {
+  .userinput {
+    width: 80%;
+  }
+}
+
+@media (max-width: 468px) {
+  .userinput {
+    width: 90%;
+  }
+}

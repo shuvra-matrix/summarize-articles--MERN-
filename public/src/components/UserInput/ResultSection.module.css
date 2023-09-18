@@ -26,3 +26,10 @@
   margin-top: 1rem;
   color: rgb(209, 209, 209);
 }
+
+@media (max-width: 468px) {
+  .result-section {
+    font-size: 0.95rem;
+    color: rgb(192, 192, 192);
+  }
+}

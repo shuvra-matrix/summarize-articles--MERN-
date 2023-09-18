@@ -19,6 +19,44 @@
 }
 
 .index-message-main p {
+  margin-top: 10px;
   font-size: 1rem;
   color: rgb(150, 147, 151);
+}
+
+@media (max-width: 1110px) {
+  .index-message-main {
+    width: 60%;
+  }
+  .index-message-main h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-message-main {
+    width: 80%;
+  }
+  .index-message-main h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .index-message-main {
+    margin: 0.5rem auto;
+    width: 90%;
+  }
+  .index-message-main h1 {
+    font-size: 2rem;
+  }
+  .index-message-main p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .index-message-main h1 {
+    font-size: 1.8rem;
+  }
 }
