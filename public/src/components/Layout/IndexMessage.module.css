@@ -1,0 +1,25 @@
+.index-message-main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 5px;
+}
+
+h1:first-child {
+  color: rgb(255, 255, 255);
+}
+span {
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(150, 147, 151);
+}

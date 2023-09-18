@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-height: 10vh;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h1 {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header a:last-child p {
+  padding: 1rem 1rem;
+  background-color: #231539;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.205);
+  color: rgb(189, 189, 189);
+}
