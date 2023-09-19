@@ -4,7 +4,7 @@ const requestIp = require("request-ip");
 const mongoos = require("mongoose");
 require("dotenv").config();
 const UAParser = require("ua-parser-js");
-const User = require("./model/User");
+const User = require("./model/user");
 
 const MONGO_CONNECT = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}mymongoinit.6md0cxy.mongodb.net/safu?retryWrites=true&w=majority`;
 const PORT = "3030";
