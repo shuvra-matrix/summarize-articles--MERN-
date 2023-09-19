@@ -3,7 +3,7 @@ import styles from "./Error.module.css";
 const Error = (props) => {
   return (
     <div className={styles["error"]}>
-      <p>Something went wrong. Please Try again later</p>
+      <p>{props.error}</p>
     </div>
   );
 };

@@ -7,11 +7,15 @@ input {
   width: 100%;
   background-color: #231539;
   height: 50px;
-  border: 0px;
+  border: none;
   border-radius: 5px;
   color: #dbdbdb;
   font-size: 16px;
   padding: 0px 60px;
+}
+
+.invalid {
+  border: 1.5px solid #ec3855;
 }
 
 input:focus {
@@ -19,7 +23,7 @@ input:focus {
 }
 
 input::placeholder {
-  color: rgb(184, 184, 184);
+  color: rgb(150, 150, 150);
 }
 
 .link {

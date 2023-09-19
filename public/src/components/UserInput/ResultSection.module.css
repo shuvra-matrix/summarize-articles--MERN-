@@ -18,13 +18,13 @@
   margin: auto;
   text-align: left;
   padding: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 1.1rem;
   border: none;
   border-radius: 5px;
   background-color: #231539;
   margin-top: 1rem;
-  color: rgb(209, 209, 209);
+  color: rgb(212, 212, 212);
 }
 
 @media (max-width: 468px) {

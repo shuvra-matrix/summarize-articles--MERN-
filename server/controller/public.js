@@ -1,11 +1,23 @@
 const axios = require("axios");
+const { validationResult } = require("express-validator");
 
 exports.getApi = (req, res, next) => {
   res.status(200).json({ message: "Welcome To Safu API V1" });
 };
 
 exports.postApi = (req, res, next) => {
-  const url = req.budy.url;
+  const url = req.body.urls;
+
+  const error = validationResult(req);
+
+  if (!error.isEmpty()) {
+    console.log(error.array());
+    return res.status(500).json({
+      status: "fail",
+      error: "Please enter a valid URL.",
+      code: 422,
+    });
+  }
 
   const options = {
     method: "GET",
@@ -27,7 +39,7 @@ exports.postApi = (req, res, next) => {
       .request(options)
       .then((response) => {
         const summary = response.data.article.summary;
-        res.status(200).jason({ summary: summary });
+        res.status(200).json({ summary: summary });
 
         return req.user
           .addQuery({ question: url, summary: summary })
